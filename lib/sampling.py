@@ -24,7 +24,7 @@ def farthest_point_sample(xyz, npoint):
     return centroids
 
 
-def query_ball_points(radius, nsample, xyz, new_xyz):
+def query_ball_point(radius, nsample, xyz, new_xyz):
     """
     Input:
         radius: local region radius
